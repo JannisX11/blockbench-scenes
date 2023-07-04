@@ -1,13 +1,26 @@
 {
+	"light_color": {"r": 0.67, "g": 0.67, "b": 0.8},
 	"fov": 70,
 	"preview_models": [
 		{
-			"id": "minecraft_snowy_tundra",
-			"texture": "minecraft/snowy_tundra/tundra.png",
+			"id": "minecraft_lush_cave",
+			"color": {"r": 0.62, "g": 0.57, "b": 0.46},
+			"texture": "minecraft/lush_cave/lush_cave.png",
 			"texture_size": [32, 32],
-			"light_color": {"r": 1.05, "g": 1.05, "b": 1.05},
 			"prefabs": {
-				"grass_block": {
+				"moss": {
+					"position": [-8, 0, -8],
+					"size": [16, 16, 16],
+					"faces": {
+						"north": {"uv": [0, 0, 16, 16]},
+						"south": {"uv": [0, 0, 16, 16]},
+						"east": {"uv": [0, 0, 16, 16]},
+						"west": {"uv": [0, 0, 16, 16]},
+						"up": {"uv": [0, 0, 16, 16]},
+						"down": {"uv": [0, 0, 16, 16]}
+					}
+				},
+				"clay": {
 					"position": [-8, 0, -8],
 					"size": [16, 16, 16],
 					"faces": {
@@ -15,7 +28,19 @@
 						"south": {"uv": [0, 16, 16, 32]},
 						"east": {"uv": [0, 16, 16, 32]},
 						"west": {"uv": [0, 16, 16, 32]},
-						"up": {"uv": [0, 0, 16, 16]},
+						"up": {"uv": [0, 16, 16, 32]},
+						"down": {"uv": [0, 16, 16, 32]}
+					}
+				},
+				"deepslate": {
+					"position": [-8, 0, -8],
+					"size": [16, 16, 16],
+					"faces": {
+						"north": {"uv": [16, 16, 32, 32]},
+						"south": {"uv": [16, 16, 32, 32]},
+						"east": {"uv": [16, 16, 32, 32]},
+						"west": {"uv": [16, 16, 32, 32]},
+						"up": {"uv": [16, 16, 32, 32]},
 						"down": {"uv": [16, 16, 32, 32]}
 					}
 				}
@@ -40,192 +65,192 @@
 					}
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [0, -1, 0],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [-1, -1, 0],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [1, -1, 1],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [1, -1, 0],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [1, -1, -1],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [0, -1, 1],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "clay",
 					"offset": [-1, -1, -1],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [0, -1, -1],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [-1, -1, 1],
 					"offset_space": "block"
 				},
 
 				
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [2, -1, 0],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [2, -1, 1],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [2, -1, -1],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "clay",
 					"offset": [-2, -1, -1],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [-2, -1, 0],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [-2, -1, 1],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "clay",
 					"offset": [0, -1, -2],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "clay",
 					"offset": [-1, -1, -2],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [1, -1, -2],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [-1, -1, 2],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [1, -1, 2],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [0, -1, 2],
 					"offset_space": "block"
 				},
 
 				
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [3, -2, 0],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "moss",
 					"offset": [3, -2, 1],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "deepslate",
 					"offset": [3, -2, -1],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "clay",
 					"offset": [-3, -2, -1],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "deepslate",
 					"offset": [-3, -2, 0],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "deepslate",
 					"offset": [-3, -2, 1],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "deepslate",
 					"offset": [0, -2, -3],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "clay",
 					"offset": [-1, -2, -3],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "deepslate",
 					"offset": [1, -2, -3],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "deepslate",
 					"offset": [-1, -2, 3],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "deepslate",
 					"offset": [1, -2, 3],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "deepslate",
 					"offset": [0, -2, 3],
 					"offset_space": "block"
 				},
 
 				{
-					"prefab": "grass_block",
+					"prefab": "deepslate",
 					"offset": [2, -2, -2],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "deepslate",
 					"offset": [-2, -2, 2],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "deepslate",
 					"offset": [2, -2, 2],
 					"offset_space": "block"
 				},
 				{
-					"prefab": "grass_block",
+					"prefab": "clay",
 					"offset": [-2, -2, -2],
 					"offset_space": "block"
 				}
@@ -233,11 +258,11 @@
 		}
 	],
 	"cubemap": [
-		"minecraft/snowy_tundra/skybox_0.png",
-		"minecraft/snowy_tundra/skybox_1.png",
-		"minecraft/snowy_tundra/skybox_2.png",
-		"minecraft/snowy_tundra/skybox_3.png",
-		"minecraft/snowy_tundra/skybox_4.png",
-		"minecraft/snowy_tundra/skybox_5.png"
+		"minecraft/lush_cave/skybox_0.png",
+		"minecraft/lush_cave/skybox_1.png",
+		"minecraft/lush_cave/skybox_2.png",
+		"minecraft/lush_cave/skybox_3.png",
+		"minecraft/lush_cave/skybox_4.png",
+		"minecraft/lush_cave/skybox_5.png"
 	]
 }

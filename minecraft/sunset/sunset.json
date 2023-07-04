@@ -1,11 +1,12 @@
 {
+	"light_color": {"r": 0.67, "g": 0.67, "b": 0.8},
 	"fov": 70,
 	"preview_models": [
 		{
-			"id": "minecraft_snowy_tundra",
-			"texture": "minecraft/snowy_tundra/tundra.png",
+			"id": "minecraft_sunset",
+			"color": {"r": 0.67, "g": 0.67, "b": 0.8},
+			"texture": "minecraft/sunset/sunset.png",
 			"texture_size": [32, 32],
-			"light_color": {"r": 1.05, "g": 1.05, "b": 1.05},
 			"prefabs": {
 				"grass_block": {
 					"position": [-8, 0, -8],
@@ -233,11 +234,11 @@
 		}
 	],
 	"cubemap": [
-		"minecraft/snowy_tundra/skybox_0.png",
-		"minecraft/snowy_tundra/skybox_1.png",
-		"minecraft/snowy_tundra/skybox_2.png",
-		"minecraft/snowy_tundra/skybox_3.png",
-		"minecraft/snowy_tundra/skybox_4.png",
-		"minecraft/snowy_tundra/skybox_5.png"
+		"minecraft/sunset/skybox_0.png",
+		"minecraft/sunset/skybox_1.png",
+		"minecraft/sunset/skybox_2.png",
+		"minecraft/sunset/skybox_3.png",
+		"minecraft/sunset/skybox_4.png",
+		"minecraft/sunset/skybox_5.png"
 	]
 }

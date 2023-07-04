@@ -2,10 +2,9 @@
 	"fov": 70,
 	"preview_models": [
 		{
-			"id": "minecraft_snowy_tundra",
-			"texture": "minecraft/snowy_tundra/tundra.png",
+			"id": "minecraft_cherry_grove",
+			"texture": "minecraft/cherry_grove/cherry_grove.png",
 			"texture_size": [32, 32],
-			"light_color": {"r": 1.05, "g": 1.05, "b": 1.05},
 			"prefabs": {
 				"grass_block": {
 					"position": [-8, 0, -8],
@@ -22,21 +21,38 @@
 			},
 			"cubes": [
 				{
-					"position": [-24, 0, 0],
-					"size": [16, 16, 0],
-					"origin": [-16, 0, 0],
-					"rotation": [0, 45, 0],
+					"position": [-24, 0, -8],
+					"size": [16, 1, 16],
 					"faces": {
-						"north": {"uv": [16, 0, 32, 16]}
+						"up": {"uv": [16, 0, 32, 16]}
 					}
 				},
 				{
-					"position": [-24, 0, 0],
-					"size": [16, 16, 0],
-					"origin": [-16, 0, 0],
-					"rotation": [0, -45, 0],
+					"position": [-56, -16, -24],
+					"size": [16, 1, 16],
 					"faces": {
-						"north": {"uv": [16, 0, 32, 16]}
+						"up": {"uv": [16, 0, 32, 16]}
+					}
+				},
+				{
+					"position": [-24, 0, 8],
+					"size": [8, 1, 16],
+					"faces": {
+						"up": {"uv": [24, 0, 32, 16]}
+					}
+				},
+				{
+					"position": [16, 0, -8],
+					"size": [8, 1, 8],
+					"faces": {
+						"up": {"uv": [16, 8, 24, 16]}
+					}
+				},
+				{
+					"position": [0, 0, -32],
+					"size": [8, 1, 8],
+					"faces": {
+						"up": {"uv": [24, 8, 32, 16]}
 					}
 				},
 				{
@@ -233,11 +249,11 @@
 		}
 	],
 	"cubemap": [
-		"minecraft/snowy_tundra/skybox_0.png",
-		"minecraft/snowy_tundra/skybox_1.png",
-		"minecraft/snowy_tundra/skybox_2.png",
-		"minecraft/snowy_tundra/skybox_3.png",
-		"minecraft/snowy_tundra/skybox_4.png",
-		"minecraft/snowy_tundra/skybox_5.png"
+		"minecraft/cherry_grove/skybox_0.png",
+		"minecraft/cherry_grove/skybox_1.png",
+		"minecraft/cherry_grove/skybox_2.png",
+		"minecraft/cherry_grove/skybox_3.png",
+		"minecraft/cherry_grove/skybox_4.png",
+		"minecraft/cherry_grove/skybox_5.png"
 	]
 }

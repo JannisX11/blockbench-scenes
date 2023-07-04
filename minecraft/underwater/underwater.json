@@ -1,0 +1,54 @@
+{
+	"light_color": {"r": 0.624, "g": 0.631, "b": 0.647},
+	"fov": 65,
+	"preview_models": [
+		{
+			"id": "minecraft_underwater",
+			"color": {"r": 0.624, "g": 0.631, "b": 0.647},
+			"texture": "minecraft/underwater/underwater.png",
+			"texture_size": [32, 32],
+			"prefabs": {
+				"kelp": {
+					"cubes": [
+						{
+							"position": [-24, 0, 0],
+							"size": [16, 32, 0],
+							"origin": [-16, 0, 0],
+							"rotation": [0, 45, 0],
+							"faces": {
+								"north": {"uv": [0, 0, 16, 32]}
+							}
+						},
+						{
+							"position": [-24, 0, 0],
+							"size": [16, 32, 0],
+							"origin": [-16, 0, 0],
+							"rotation": [0, -45, 0],
+							"faces": {
+								"north": {"uv": [0, 0, 16, 32]}
+							}
+						}
+					]
+				}
+			},
+			"grid": {
+				"size": [16, 16],
+				"kelp": [
+					[0, -4, 0],
+					[0, -2, 0],
+					[0, 0, 0],
+					[0, 2, 0],
+					[0, 4, 0]
+				]
+			}
+		}
+	],
+	"cubemap": [
+		"minecraft/underwater/skybox_0.png",
+		"minecraft/underwater/skybox_1.png",
+		"minecraft/underwater/skybox_2.png",
+		"minecraft/underwater/skybox_3.png",
+		"minecraft/underwater/skybox_4.png",
+		"minecraft/underwater/skybox_5.png"
+	]
+}

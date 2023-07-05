@@ -1,0 +1,12 @@
+{
+	"light_color": {"r": 0.664, "g": 0.671, "b": 0.687},
+	"fov": 65,
+	"cubemap": [
+		"minecraft/coral_reef/skybox_0.png",
+		"minecraft/coral_reef/skybox_1.png",
+		"minecraft/coral_reef/skybox_2.png",
+		"minecraft/coral_reef/skybox_3.png",
+		"minecraft/coral_reef/skybox_4.png",
+		"minecraft/coral_reef/skybox_5.png"
+	]
+}

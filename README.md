@@ -17,5 +17,7 @@ This repository hosts the assets for Blockbench Preview scenes. Hosting them in 
 
 Old: * `-180 0` * `-90 0` * `0 0` * `90 0` * `-180 -90` * `-180 90`
 
+Seed: `-9162205240910217246`
+
 ## Contribution
 Preview Scenes are not intended for contributions at this time.

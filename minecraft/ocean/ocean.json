@@ -1,0 +1,27 @@
+{
+	"fov": 70,
+	"preview_models": [
+		{
+			"id": "minecraft_ocean",
+			"texture": "minecraft/ocean/ocean.png",
+			"texture_size": [16, 16],
+			"cubes": [
+				{
+					"position": [-128, -0.01, -128],
+					"size": [256, 0.001, 256],
+					"faces": {
+						"up": {"uv": [0, 0, 256, 256]}
+					}
+				}
+			]
+		}
+	],
+	"cubemap": [
+		"minecraft/ocean/skybox_0.png",
+		"minecraft/ocean/skybox_1.png",
+		"minecraft/ocean/skybox_2.png",
+		"minecraft/ocean/skybox_3.png",
+		"minecraft/ocean/skybox_4.png",
+		"minecraft/ocean/skybox_5.png"
+	]
+}

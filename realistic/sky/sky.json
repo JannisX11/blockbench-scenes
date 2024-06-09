@@ -1,0 +1,12 @@
+{
+	"light_color": {"r": 1.02, "g": 1.02, "b": 1.0},
+	"fov": 70,
+	"cubemap": [
+		"realistic/sky/clouds1_east.png",
+		"realistic/sky/clouds1_west.png",
+		"realistic/sky/clouds1_up.png",
+		"realistic/sky/clouds1_down.png",
+		"realistic/sky/clouds1_north.png",
+		"realistic/sky/clouds1_south.png"
+	]
+}

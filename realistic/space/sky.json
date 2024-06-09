@@ -1,0 +1,12 @@
+{
+	"light_color": {"r": 0.67, "g": 0.76, "b": 0.9},
+	"fov": 70,
+	"cubemap": [
+		"realistic/space/right.png",
+		"realistic/space/left.png",
+		"realistic/space/top.png",
+		"realistic/space/bot.png",
+		"realistic/space/front.png",
+		"realistic/space/back.png"
+	]
+}

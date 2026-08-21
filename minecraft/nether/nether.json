@@ -1,6 +1,6 @@
 {
 	"light_color": {"r": 0.68, "g": 0.61, "b": 0.49},
-	"light_side": 1,
+	"shading_mode": "minecraft_nether",
 	"fov": 70,
 	"preview_models": [
 		{

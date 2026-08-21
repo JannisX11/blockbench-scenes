@@ -1,5 +1,5 @@
 {
-	"light_color": {"r": 0.278, "g": 0.278, "b": 0.504},
+	"shading_mode": "minecraft_night",
 	"fov": 70,
 	"preview_models": [
 		{
